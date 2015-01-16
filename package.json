@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AKRFranko/local-placeholder-images/issues"
   },
-  "homepage": "https://github.com/AKRFranko/local-placeholder-images"
+  "homepage": "https://github.com/AKRFranko/local-placeholder-images",
+  "devDependencies": {
+    "canvas": "^1.1.6"
+  }
 }
