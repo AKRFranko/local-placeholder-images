@@ -2,7 +2,10 @@
   "name": "local-placeholder-images",
   "version": "1.0.0",
   "description": "A placeholder image service meant to be used locally.",
-  "main": "index.js",
+  "main": "index.example.js",
+  "bin": {
+    "serve-placeholders": "./bin/index.js"
+   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +19,8 @@
     "url": "https://github.com/AKRFranko/local-placeholder-images/issues"
   },
   "homepage": "https://github.com/AKRFranko/local-placeholder-images",
-  "devDependencies": {
-    "canvas": "^1.1.6"
+  "dependencies": {
+      "canvas": "^1.1.6",
+      "minimist": "^1.1.0"
   }
 }
