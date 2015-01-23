@@ -5,7 +5,7 @@
   "main": "index.example.js",
   "bin": {
     "serve-placeholders": "./bin/index.js"
-   },
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/AKRFranko/local-placeholder-images",
   "dependencies": {
-      "canvas": "^1.1.6",
-      "minimist": "^1.1.0"
+    "canvas": "^1.1.6",
+    "express": "^4.11.1",
+    "minimist": "^1.1.0"
   }
 }
